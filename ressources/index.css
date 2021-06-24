@@ -1,0 +1,18 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    padding-right: 150px;
+}
+
+#logo{
+    width: 180px;
+}
+
+.link{
+    padding: 20px;
+    float: right;
+    font-size: 20px;
+
+}
