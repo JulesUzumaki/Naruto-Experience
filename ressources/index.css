@@ -1,5 +1,5 @@
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 nav {
@@ -7,7 +7,8 @@ nav {
 }
 
 #logo{
-    width: 180px;
+    width: 140px;
+    padding-left: 20px;
 }
 
 .link{
@@ -15,4 +16,39 @@ nav {
     float: right;
     font-size: 20px;
 
+}
+
+#banner{
+    height: 400px;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/originals/92/b7/3c/92b73cd6467ceee125a99da4cf2f41c9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#title{
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+#title .h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    height: 50px;
+    padding: 10px;
+}
+
+.info-title{
+    grid-row-start: 4;
+    grid-row-end: 4;
+    text-align: center;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
 }
