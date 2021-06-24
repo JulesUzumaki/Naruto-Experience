@@ -119,15 +119,19 @@ nav {
     background-color: rgb(236, 242, 245);
 }
 
-#squadseven{
+.squadseven{
     font-size: 25px;
     text-align: center;
     padding: 20px;
     border: black 2px solid; 
-    background-color: rgb(67, 67, 250);
+    background-color: rgb(65, 65, 241);
 }
 
 /*jutsu*/
+
+.basics{
+    width: 100%;
+}
 
 .basic-info{
     text-indent: 30px;
@@ -144,7 +148,8 @@ nav {
 .basic{
     width: 70%;
     margin: auto;
-    margin-bottom: 30px;
+    margin-top: 80px;
+    border: yellow solid 1px;
 }
 
 #shadow-img {
@@ -157,6 +162,15 @@ nav {
 }
 
 #fireball{
-    margin-left: 20%;
+    margin-left: 240px;
 }
 
+.possession{
+    width: 350px;
+    display: inline-block;
+    margin: 0 20px 0 20px;
+}
+
+#shadow1{
+    margin-left: 200px;
+}
