@@ -7,7 +7,7 @@ body{
     text-align: center;
     padding: 30px;
     background-color: rgb(251, 87, 11);
-    margin: 30px;
+    margin: 80px 30px 30px 30px;
 }
 
 .container {
@@ -88,7 +88,7 @@ nav {
 /*The characters*/
 .character{
     width: 280px;
-    margin: 20px;
+    margin: 30px 20px 60px 20px;
 }
 
 .character img{
@@ -96,6 +96,7 @@ nav {
     margin: 10px;
     padding: 10px 10px 0px 10px;
     border: black solid 2px;
+    background-color: white;
 }
 
 .descrip-text{
@@ -108,13 +109,13 @@ nav {
     width: 100%;
     display: inline-flex;
     justify-content: space-around;
+    background-color: rgb(236, 242, 245);
 }
 
 #squadseven{
     font-size: 25px;
     text-align: center;
-    margin-top: 20px;
-    padding: 15px;
+    padding: 35px;
     border: black 2px solid; 
     background-color: rgb(67, 67, 250);
 }
