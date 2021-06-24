@@ -2,6 +2,21 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
+.article-name{
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+/*heading*/
 nav {
     padding-right: 150px;
 }
@@ -51,4 +66,38 @@ nav {
     color: white;
     font-size: 20px;
     text-decoration: underline;
+}
+
+/*about*/
+.article-about img{
+    height: 250px;
+    border: solid black 1px;
+}
+
+.text-intro{
+    margin: 0 20px 0 10px;
+    font-family:sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: black;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#img1{
+    padding-top: 20px;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+#img2{
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 1;
 }
