@@ -8,7 +8,9 @@ body{
     padding: 30px;
     background-color: rgb(251, 87, 11);
     margin: 80px 30px 30px 30px;
+    text-decoration: underline;
 }
+
 
 .container {
     display: flex;
@@ -17,6 +19,8 @@ body{
 /*heading*/
 nav {
     padding-right: 150px;
+    background-color: white;
+
 }
 
 #logo{
@@ -78,11 +82,13 @@ nav {
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
+    width: 900px;
     color: black;
 }
 
 #img1{
     padding-top: 20px;
+    padding-left: 50px;
 }
 
 /*The characters*/
@@ -100,6 +106,7 @@ nav {
 }
 
 .descrip-text{
+    text-indent: 15px;
     font-family: sans-serif;
     line-height: 25px;
     text-align: center;
@@ -115,7 +122,41 @@ nav {
 #squadseven{
     font-size: 25px;
     text-align: center;
-    padding: 35px;
+    padding: 20px;
     border: black 2px solid; 
     background-color: rgb(67, 67, 250);
 }
+
+/*jutsu*/
+
+.basic-info{
+    text-indent: 30px;
+    font-family: sans-serif;
+    line-height: 25px;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.padding{
+    padding-top: 60px;
+}
+
+.basic{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#shadow-img {
+    width: 650px;
+}
+
+.basic img{
+    padding: 15px;
+    padding-left: 0;
+}
+
+#fireball{
+    margin-left: 20%;
+}
+
