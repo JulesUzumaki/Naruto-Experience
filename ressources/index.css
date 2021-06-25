@@ -128,11 +128,6 @@ nav {
 }
 
 /*jutsu*/
-
-.basics{
-    width: 100%;
-}
-
 .basic-info{
     text-indent: 30px;
     font-family: sans-serif;
@@ -142,14 +137,16 @@ nav {
 }
 
 .padding{
-    padding-top: 60px;
+    padding-top: 80px;
 }
 
 .basic{
     width: 70%;
     margin: auto;
     margin-top: 80px;
-    border: yellow solid 1px;
+    background-color: rgb(235, 235, 238);
+    padding: 30px;
+    border-radius: 40px;
 }
 
 #shadow-img {
@@ -173,4 +170,8 @@ nav {
 
 #shadow1{
     margin-left: 200px;
+}
+
+#talkjutsu{
+    width: 650px;
 }
