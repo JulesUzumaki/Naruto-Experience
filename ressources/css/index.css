@@ -98,14 +98,15 @@ nav {
 }
 
 .character img{
-    width: 240px;
-    margin: 10px;
+    width: 90%;
+    margin: 8px;
     padding: 10px 10px 0px 10px;
     border: black solid 2px;
     background-color: white;
 }
 
 .descrip-text{
+    font-size: 16px;
     text-indent: 15px;
     font-family: sans-serif;
     line-height: 25px;
@@ -150,7 +151,8 @@ nav {
 }
 
 #shadow-img {
-    width: 650px;
+    width: 70%;
+    height: auto;
 }
 
 .basic img{
@@ -159,7 +161,8 @@ nav {
 }
 
 #fireball{
-    margin-left: 240px;
+    margin: auto;
+    margin-left: 20%;
 }
 
 .possession{
@@ -173,7 +176,8 @@ nav {
 }
 
 #talkjutsu{
-    width: 650px;
+    width: 80%;
+    height: 80%;
 }
 
 .homepage{
@@ -190,7 +194,6 @@ nav {
     margin: 30px;
     border-radius: 70px;
     height: 800px;
-
 }
 
 .homepage-section{
@@ -251,3 +254,79 @@ footer{
     margin-top: 30px;
 }
 
+.add{
+    display: none;
+}
+
+/*responsive web*/
+
+@media only screen and (max-width: 1030px){
+    /*homepage*/
+    .hide{
+        display: none;
+    }
+    .descrip-text{
+        font-size: 19px;
+        line-height: 28px;
+    }
+    #homepage{
+        padding: 10px;
+    }
+
+    /*justsu*/
+
+    .shadow-img{
+        width: 50%;
+        height: 50%;
+    }
+    .basic-info{
+        font-size: 19px;
+        line-height: 28px;
+    }
+    .basic{
+        width: 80%;
+    }
+    #fireball{
+        margin-left: 10%;
+    }
+    #shadow2{
+        margin-left: 25%;
+    }
+    .possession{
+        width: 50%;
+    }
+    #no-container{
+        display: block;
+    }
+    #talk-jutsu{
+        padding-top: 20px;
+    }
+    #talkjutsu{
+        margin-left: 10%;
+    }
+    .article-name{
+        font-size: 35px;
+    }
+    .squadseven{
+        font-size: 30px;
+    }
+
+    .text2{
+        font-size: 20px;
+    }
+
+    .text, footer{
+        font-size: 19px;
+    }
+
+    .text-intro{
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    .add{
+        display: block;
+        margin-top: 20px;
+        margin-left: 53px;
+    }
+}
