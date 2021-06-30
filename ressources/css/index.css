@@ -414,13 +414,19 @@ footer{
 
 .link :hover{
     background-color: cornflowerblue;
+    color: white;
 }
 
 .link :active{
     color: white;
 }
 
+.hover :hover{
+    background-color: rgb(240, 141, 27);
+    color: white;
 }
+
+
 /*responsive web*/
 
 @media only screen and (max-width: 1030px){
