@@ -412,6 +412,15 @@ footer{
     padding: 10px;
 }
 
+.link :hover{
+    background-color: cornflowerblue;
+}
+
+.link :active{
+    color: white;
+}
+
+}
 /*responsive web*/
 
 @media only screen and (max-width: 1030px){
