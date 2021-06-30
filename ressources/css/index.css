@@ -353,11 +353,11 @@ footer{
 }
 
 .smallarticle-name2{
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
-    padding: 15px;
+    padding: 8px;
     border: black 2px solid; 
-    width: 55%;
+    width: 40%;
     background-color: rgb(140, 140, 199);
     margin: auto;
     margin-top: 80px;
@@ -371,7 +371,46 @@ footer{
     font-size: 24px;
 }
 
+.marginleft20{
+    margin-left: 20px;
+}
 
+.marginright20{
+    margin-right: 20px;
+}
+
+.marginright150{
+    margin-right: 150px;
+}
+
+.marginleft150{
+    margin-left: 150px;
+}
+
+.width-20{
+    width: 20%;
+}
+
+.margintop-40{
+    margin-top: 40px;
+}
+
+.margin20{
+    margin: 20px;
+}
+
+.margintop-90{
+    margin-top: 90px;
+}
+
+.margintop-150{
+    margin-top: 150px;
+}
+
+.border{
+    border: black solid 2px;
+    padding: 10px;
+}
 
 /*responsive web*/
 
