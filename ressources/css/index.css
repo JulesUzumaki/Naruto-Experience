@@ -2,6 +2,7 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
+
 .article-name{
     font-size: 30px;
     text-align: center;
@@ -25,6 +26,7 @@ nav {
 #logo{
     width: 140px;
     padding-left: 20px;
+    margin: 0;
 }
 
 .link{
@@ -413,8 +415,8 @@ footer{
 }
 
 .link :hover{
-    background-color: cornflowerblue;
-    color: white;
+    background-color: rgb(40, 97, 202);
+    color: rgb(228, 224, 224);
 }
 
 .link :active{

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Naruto</title>
+</head>
+<body> 
+    <nav>
+            <img id="logo" src="./ressources/logo-naruto.png" alt="">
+            <div class='link' > <a href="./index.html"> About </a></div>
+            <div class='link'> <a href="./index-characters.html"> The characters </a></div>
+            <div class='link'> <a href="./index-basics.html"> Basic Jutsu </a></div>
+            <div class='link'> <a href="./index-gallery.html"> Gallery </a></div>
+            <div class='link'> <a href="./index-homepage.html"> Homepage </a></div>
+            <div class='link'> <a href="./index-intro.html"> Introduction </a></div>
+            <div class='link'> <a href="./index-main.html"> All the characters </a></div>
+    </nav>
+    
+    <header>
+        <img src="./2560px-Naruto_logo.svg.png" alt="">
+        <h1>The Naruto Experience</h1>
+        <div class="header-content">
+            <p>This website was created using <a href="https://www.narutoql.com/graphql">this</a> API.</p>
+            <p>Have fun looking around and using the filters !</p>
+        </div>
+    </header>
+
+
+    
+<div class="checkbox-div"> 
+    <div>
+<input type="radio" id="leaf" name="village" value="leaf">
+<label for="leaf">Leaf Village</label><br>
+    </div>
+    
+    <div>
+    <input type="radio" id="sand" name="village" value="sand" >
+<label for="sand-village">Sand Village</label><br>
+    </div>
+
+    <div>
+<input type="radio" id="rock" name="village" value="rock">
+<label for="rock-village">Stone Village</label><br>
+    </div>
+
+    <div>
+<input type="radio" id="rain" name="village" value="rain">
+<label for="rain-village">Rain Village</label><br>
+    </div>
+
+    <div>
+        <input type="radio" id="mist" name="village" value="mist">
+        <label for="mist-village">Mist Village</label><br>
+            </div>
+
+    <div>
+<input type="radio" id="cloud" name="village" value="cloud">
+<label for="cloud-village">Cloud Village</label><br>
+</div>
+
+    <div>
+        <input type="radio" id="all" name="village" value="all" checked="checked">
+        <label for="cloud-village">All Villages</label><br>
+        </div>
+    </div>
+
+
+<div class="search-div">
+    <form class="search-form">
+        <input type="text" placeholder="Search a name.." class="search-input" >
+        <button type="submit" class="search-btn"><i class="fa fa-search"></i></button>
+    </form>
+</div>
+
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
