@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Naruto Experience</title>
     <link rel="stylesheet" href="./ressources/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
@@ -44,13 +45,30 @@
             
         </div>
     </section>
+    <section class='carousel'>
 
-    <section>
+    <div class="carousel-container">
+
+        <i class="fas fa-arrow-left" id='prevBtn'></i>
+        <i class="fas fa-arrow-right" id='nextBtn'></i>
+
+
+        <div class="carousel-slide">
+            <img src="./naruto5.jpg" id="lastClone" alt="">
+            <img src="./naruto1.jpg" alt="">
+            <img src="./naruto2.jpg" alt="">
+            <img src="./naruto3.jpg" alt="">
+            <img src="./naruto4.jpg" alt="">
+            <img src="./naruto5.jpg" alt="">
+            <img src="./naruto1.jpg" id="firstClone" alt="">
+        </div>
+    </div>
 
     </section>
     <footer>
         <div class='left'>Made by Julie Cabanat. All rights reserved. </div>
         <div class='right'>Updated the 25/06/2021</div>
     </footer>
+    <script src="./script-carousel.js"></script>
 </body>
 </html>
