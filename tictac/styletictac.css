@@ -85,12 +85,56 @@ section{
 }
 
 .game-restart{
-    width: 150px;
-    background-color: white;
-    height: 50px;
-    cursor: pointer;
-    font-size: 17px;
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: #279;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
 }
 .game-restart:hover{
     background-color: rgb(226, 223, 223);
+}
+
+section{
+    margin-bottom: 150px;
+    margin-top: 70px;
+}
+
+
+.quiz-section{
+    font-size: 18px;
+}
+
+#submit{
+    margin-top: 20px;
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: #279;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 15px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+#submit:hover{
+    background-color: rgb(22, 117, 155);
+}
+
+.question{
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+
+.answers label{
+    display: block;
+    margin: 5px;
 }
